@@ -14,3 +14,11 @@ author_profile: true
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+
+<hr style="border-color:black;">
+{% for post in site.publications reversed %}
+  {% if post.status == 'published' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

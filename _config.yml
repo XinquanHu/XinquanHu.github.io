@@ -5,13 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
+# you can run 'bundle exec jekyll serve --force_polling --livereload' to lively reload the page
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Xinquan  / Site Title"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Xinquan"
-description              : &description "PhD student"
+description              : &description "Ph.D. student "
 url                      : https://xinquanhu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "XinquanHu.github.io"
@@ -21,20 +22,20 @@ repository               : "XinquanHu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "xinquanhu.jpg"
   name             : "Xinquan Hu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student at SUFE"
-  location         : #"Earth"
+  bio              : "Ph.D. student  at SUFE"
+  location         : "Shanghai, China"
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "huxinquan@163.sufe.edu.cn" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -108,7 +109,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -247,6 +248,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _researchs
+  - scope:
+      path: ""
+      type: research
     values:
       layout: single
       author_profile: true
