@@ -9,7 +9,9 @@ redirect_from:
 
 Hi! This is Xinquan Hu's home on the web!
 
-I am a Ph.D. Candidate in Economics at  <a href="https://econ.sufe.edu.cn/main.htm" target="_blank">School of Economics</a>, Shanghai University of Finance and Economics, supervised by <a href="https://econ.sufe.edu.cn/32/38/c12676a209464/page.htm" target="_blank">Prof. Lan Yao</a>.
+I am  a <a href="https://business.xtu.edu.cn/index.jsp?cc=cshizidw&cd=teacher&ac=view&id=100332" target="_blank">Lecturer</a> at the School of Business, Xiangtan University, China.
+
+I received my PhD in Economics  at  <a href="https://econ.sufe.edu.cn/main.htm" target="_blank">School of Economics</a>, Shanghai University of Finance and Economics, supervised by <a href="https://econ.sufe.edu.cn/32/38/c12676a209464/page.htm" target="_blank">Prof. Lan Yao</a>.
 
 Research Fields: Behavioral Economics, Experimental Economics, Microeconomics, Mechanism Design
 
